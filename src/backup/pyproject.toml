@@ -1,0 +1,14 @@
+[build-system]
+requires = ["poetry-core>=1.0.0", ]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "backup"
+version = "0.0.1"
+description = "Tools for backup of Deep Origin Data Hub."
+authors = ["Ben Siranosian <bsiranosian@gmail.com>"]
+[[tool.poetry.packages]]
+include = "eln"
+
+[tool.poetry.dependencies]
+python = "~3.12"
